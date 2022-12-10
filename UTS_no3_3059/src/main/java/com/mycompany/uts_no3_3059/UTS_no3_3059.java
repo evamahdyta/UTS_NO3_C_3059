@@ -27,6 +27,8 @@ public class UTS_no3_3059 {
         try {
             //mengisi data ke array pada data Asisten Praktikum
             for(int i = 0; i < 1; i++){
+                System.out.println("Jumlah Asisten Praktikum : 1");
+                System.out.println("=== Input Data Asisten Praktikum ===");
                 System.out.print("NIM              : ");
                 ap[i].nim = br.readLine();
                 System.out.print("Nama             : ");
@@ -43,7 +45,7 @@ public class UTS_no3_3059 {
             }
             
             //Menampilkan semua isi array pada data Asisten Praktikum 
-            System.out.println("DATA ASISTEN PRAKTIKUM");
+            System.out.println("=== DATA ASISTEN PRAKTIKUM ===");
             for(AsistenPraktikum_3059 AP : ap){
                 AP.tampilDataAsistenPraktikum();
                 System.out.println("");
@@ -51,6 +53,8 @@ public class UTS_no3_3059 {
 
             //mengisi data ke array pada data Student Staff 
             for(int i = 0; i < 1; i++){
+                System.out.println("Jumlah Student Staff : 1");
+                System.out.println("=== Input Data Student Staff ===");
                 System.out.print("NIM         : ");
                 ss[i].nim = br.readLine();
                 System.out.print("Nama        : ");
@@ -60,7 +64,7 @@ public class UTS_no3_3059 {
                 System.out.print("IPK         : ");
                 ss[i].ipk =Integer.parseInt(br.readLine());
                 System.out.print(" Unit Kerja : ");
-                ss[i].unitKerja = Integer.parseInt(br.readLine());
+                ss[i].unitKerja = br.readLine();
                 System.out.print("Jam Kerja   : ");
                 ss[i].jamKerja = Integer.parseInt(br.readLine());
                 System.out.println();

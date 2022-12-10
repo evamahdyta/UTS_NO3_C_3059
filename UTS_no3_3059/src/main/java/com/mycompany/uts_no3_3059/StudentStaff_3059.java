@@ -9,7 +9,8 @@ package com.mycompany.uts_no3_3059;
  * @author Eva Mahdyta Kiswana (211103059) 
  */
 public class StudentStaff_3059 extends Mahasiswa_3059 {
-    int unitKerja, jamKerja;
+    int jamKerja;
+    String unitKerja;
     
     public double totalPendapatan(){
         return (jamKerja * 30000);
